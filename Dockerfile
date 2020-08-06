@@ -19,3 +19,4 @@ RUN cd / && \
     cmake . && \
     make -j $(nproc) 
 RUN cp /fast_align/fast_align /usr/local/bin
+RUN cp /fast_align/atools /usr/local/bin
